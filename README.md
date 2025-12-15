@@ -1,76 +1,235 @@
-<h2 align="center">
-  Portfolio Website - v2.0<br/>
-  <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>
-</h2>
+# 💼 Kartikay Shukla - Portfolio Website
+
 <div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
+  
+  [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge&logo=vercel)](https://kartikay-portfolio.vercel.app)
+  [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?style=for-the-badge&logo=github)](https://github.com/KARTIKAY-SHUKLA1/kartikay-portfolio)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/kartikay-shukla/)
+  
 </div>
 
-<br/>
+---
 
-<center>
+## 🚀 About
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
-![GitHub forks](https://img.shields.io/github/forks/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge)
+Personal portfolio website showcasing my projects, skills, and achievements as a **Full Stack Developer** and **Competitive Programmer**. Currently pursuing B.Tech in Electronics and Communication Engineering at **IIIT Kota**.
 
-</center>
+**🌐 Live Website:** Update with your Vercel URL after deployment
 
-<h3 align="center">
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Request Feature</a>
-</h3>
+---
 
-## TL;DR
+## ✨ Features
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). Thanks!
+- 🎨 **Modern Dark Cyan Theme** - Professional and eye-catching design
+- 📱 **Fully Responsive** - Optimized for all devices (mobile, tablet, desktop)
+- 🎯 **Interactive UI** - Smooth animations and particle effects
+- 💼 **Enhanced Project Cards** - Detailed showcases with tech stack badges
+- 🏆 **Achievements Section** - Competitive programming highlights
+- 📧 **Contact Form** - Direct mailto integration
+- 🌐 **Multi-Page Layout** - Home, About, Projects, Resume sections
+- ⚡ **Fast Performance** - Optimized build and deployment
 
-## Built With
+---
 
-My personal portfolio <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
+## 🛠️ Built With
 
-This project was built using these technologies.
+**Frontend:**
+- React.js 17
+- React Router v6
+- React Bootstrap
+- React Icons
+- Typewriter Effect
+- React Parallax Tilt
+- React tsParticles
 
-- React.js
-- Node.js
-- Express.js
-- CSS3
-- VsCode
-- Vercel
+**Styling:**
+- Custom CSS3
+- Bootstrap 5
+- Responsive Design
 
-## Features
+**Tools & Deployment:**
+- VS Code
+- Git & GitHub
+- Vercel (Hosting)
+- npm (Package Manager)
 
-**📖 Multi-Page Layout**
+---
 
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
+## 📂 Project Structure
 
-**📱 Fully Responsive**
+```
+portfolio/
+├── public/
+│   ├── index.html
+│   └── assets/
+├── src/
+│   ├── components/
+│   │   ├── Home/
+│   │   │   ├── Home.js
+│   │   │   ├── Home2.js
+│   │   │   ├── Type.js
+│   │   │   └── Contact.js
+│   │   ├── About/
+│   │   │   ├── About.js
+│   │   │   ├── AboutCard.js
+│   │   │   ├── Techstack.js
+│   │   │   ├── Toolstack.js
+│   │   │   └── Github.js
+│   │   ├── Projects/
+│   │   │   ├── Projects.js
+│   │   │   └── ProjectCards.js
+│   │   ├── Resume/
+│   │   ├── Navbar.js
+│   │   ├── Footer.js
+│   │   └── Particle.js
+│   ├── Assets/
+│   ├── App.js
+│   ├── style.css
+│   └── index.js
+└── package.json
+```
 
-## Getting Started
+---
 
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+## 🚀 Getting Started
 
-## 🛠 Installation and Setup Instructions
+### Prerequisites
 
-1. Installation: `npm install`
+- Node.js (v14 or higher)
+- npm or yarn
+- Git
 
-2. In the project directory, you can run: `npm start`
+### Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/KARTIKAY-SHUKLA1/kartikay-portfolio.git
+   cd kartikay-portfolio
+   ```
 
-## Usage Instructions
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-Open the project folder and Navigate to `/src/components/`. <br/>
-You will find all the components used and you can edit your information accordingly.
+3. **Start development server**
+   ```bash
+   npm start
+   ```
+   Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### Show your support
+4. **Build for production**
+   ```bash
+   npm run build
+   ```
 
-Give a ⭐ if you like this website!
+---
 
-<a href="https://www.buymeacoffee.com/soumyajit4419" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
+## 🎯 Key Sections
+
+### 🏠 Home
+- Dynamic typing effect showcasing roles
+- Introduction and quick overview
+- Social media links
+- Contact section with form
+
+### 👨‍💻 About
+- Personal introduction and background
+- Professional skillset with icons
+- Tools and technologies
+- Achievements and recognition
+- GitHub contribution graph
+
+### 💼 Projects
+Featured projects with detailed information:
+- **DevLinkr** - Real-time pair programming platform
+- **CodeLens** - AI-powered code review tool
+- **Hyrify** - Full-stack job portal
+
+Each project card includes:
+- Tech stack badges
+- Key features
+- Live demo link
+- GitHub repository link
+
+### 📄 Resume
+- Downloadable PDF resume
+- Professional experience
+- Education details
+- Technical skills
+
+---
+
+## 🏆 Achievements Highlighted
+
+- 🌟 **Top 12 Globally** - CodeChef Starters 190
+- ⭐ **3-Star Rating** - CodeChef (Max: 1651)
+- 💻 **Specialist Rating** - Codeforces (Max: 1437)
+- 🧩 **200+ Problems Solved** - LeetCode
+- 📱 **IIIT Kernel** - Senior Social Media Member
+
+---
+
+## 🎨 Color Theme
+
+- **Primary Background:** `#0a192f` (Deep Navy)
+- **Primary Accent:** `#64ffda` (Cyan)
+- **Secondary Text:** `#8892b0` (Slate Blue)
+- **Primary Text:** `#ccd6f6` (Light Slate)
+
+---
+
+## 📱 Responsive Design
+
+- ✅ Mobile (320px - 767px)
+- ✅ Tablet (768px - 1024px)
+- ✅ Desktop (1025px+)
+- ✅ Large Screens (1920px+)
+
+---
+
+## 🔗 Connect With Me
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-KARTIKAY--SHUKLA1-181717?style=for-the-badge&logo=github)](https://github.com/KARTIKAY-SHUKLA1)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-kartikay--shukla-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/kartikay-shukla/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-KARTIKAY__SHUKLA-FFA116?style=for-the-badge&logo=leetcode)](https://leetcode.com/u/KARTIKAY_SHUKLA/)
+[![CodeChef](https://img.shields.io/badge/CodeChef-kartikay4578-5B4638?style=for-the-badge&logo=codechef)](https://www.codechef.com/users/kartikay4578)
+[![Codeforces](https://img.shields.io/badge/Codeforces-KARTIK__4578-1F8ACB?style=for-the-badge&logo=codeforces)](https://codeforces.com/profile/KARTIK_4578)
+
+📧 Email: kartikayshukla4141@gmail.com
+
+</div>
+
+---
+
+## 📝 License
+
+This project is open source and available for personal and educational use.
+
+---
+
+## 🙏 Acknowledgments
+
+- Icons from [React Icons](https://react-icons.github.io/react-icons/)
+- Particles effect from [tsParticles](https://particles.js.org/)
+- Hosted on [Vercel](https://vercel.com)
+
+---
+
+## 📊 Stats
+
+![GitHub repo size](https://img.shields.io/github/repo-size/KARTIKAY-SHUKLA1/kartikay-portfolio?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/KARTIKAY-SHUKLA1/kartikay-portfolio?style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/KARTIKAY-SHUKLA1/kartikay-portfolio?style=for-the-badge)
+
+---
+
+<div align="center">
+
+### ⭐ Star this repo if you find it useful!
+
+**Made with ❤️ by Kartikay Shukla**
+
+</div>
